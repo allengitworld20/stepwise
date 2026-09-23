@@ -6,6 +6,8 @@ After a concussion, people are often told to "rest, then ease back in", and then
 
 It's built for a sore head: a dark and **dim** mode for light sensitivity, no animation, large tap targets, a hyperlegible typeface, and a screen-break reminder every 20 minutes.
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/allengitworld20/stepwise)
+
 > Try it instantly with sample data: open `/?demo`
 
 <p align="center">
@@ -51,7 +53,7 @@ npm test         # model unit tests
 
 ## Deploy on Render
 
-The repo includes `render.yaml`. In Render, choose **New → Blueprint**, point it at this repo, and deploy. It runs as a free Node web service with a `/healthz` health check.
+Click the **Deploy to Render** button above, or in Render choose **New → Blueprint** and point it at this repo. The included `render.yaml` does the rest. It runs as a free Node web service with a `/healthz` health check.
 
 ## Project layout
 
