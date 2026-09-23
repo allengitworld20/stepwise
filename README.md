@@ -8,6 +8,12 @@ It's built for a sore head: a dark and **dim** mode for light sensitivity, no an
 
 > Try it instantly with sample data: open `/?demo`
 
+<p align="center">
+  <img src="docs/insights.png" alt="Insights: symptom trend chart and explained patterns" width="62%">
+  <img src="docs/mobile.png" alt="Stepwise on a phone" width="26%">
+</p>
+<p align="center"><img src="docs/plan.png" alt="Return-to-activity plan with readiness checks" width="70%"></p>
+
 ## Features
 
 | | |
