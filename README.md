@@ -8,7 +8,9 @@ It's built for a sore head: a dark and **dim** mode for light sensitivity, no an
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/allengitworld20/stepwise)
 
-> Try it instantly with sample data: open `/?demo`
+**Live app: https://stepwise-ye4l.onrender.com** · [Open with sample data](https://stepwise-ye4l.onrender.com/?demo)
+
+> Hosted on Render's free tier, so the first visit after a quiet spell can take up to a minute to wake up.
 
 <p align="center">
   <img src="docs/insights.png" alt="Insights: symptom trend chart and explained patterns" width="62%">
