@@ -1,0 +1,3 @@
+{ "name": "Stepwise", "short_name": "Stepwise", "start_url": "/", "display": "standalone",
+  "background_color": "#11161a", "theme_color": "#11161a",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }] }

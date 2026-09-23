@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Stepwise</title>
+  <meta name="description" content="A calm, private companion for concussion recovery.">
+  <meta name="theme-color" content="#11161a">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="top">
+    <div class="brand">
+      <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><rect width="32" height="32" rx="9" fill="var(--accent)"/><path d="M8 23h5v-5h5v-5h6" fill="none" stroke="var(--on-accent)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Stepwise</span>
+    </div>
+    <div class="top-actions">
+      <span class="chip" id="day-chip" hidden></span>
+      <button class="btn-ghost" id="urgent-btn" type="button">Urgent signs</button>
+      <button class="icon-btn" id="theme-btn" type="button" aria-label="Change display mode" title="Display mode">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <nav class="tabs" aria-label="Sections">
+    <button data-tab="today" aria-current="page">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4 4L19 6" /></svg><span>Today</span></button>
+    <button data-tab="check">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg><span>Brain check</span></button>
+    <button data-tab="plan">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19h5v-5h5V9h6"/></svg><span>Plan</span></button>
+    <button data-tab="insights">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18l5-6 4 3 7-9"/></svg><span>Insights</span></button>
+  </nav>
+
+  <main id="main" tabindex="-1"></main>
+
+  <dialog id="urgent" aria-labelledby="urgent-title">
+    <h2 id="urgent-title">Get medical help now if you notice</h2>
+    <ul id="urgent-list" class="flag-list"></ul>
+    <p class="callout crit">Call your local emergency number (911 in the US) or go to the nearest emergency department. Don't wait for these to pass.</p>
+    <form method="dialog"><button class="btn">Close</button></form>
+  </dialog>
+
+  <div id="break" class="break" hidden role="alertdialog" aria-labelledby="break-title">
+    <div class="break-card">
+      <h2 id="break-title">Time for a screen break</h2>
+      <p>You've been on screen for a while. Look at something far away, close your eyes, or step outside for a few minutes.</p>
+      <p class="breath" aria-hidden="true"></p>
+      <button class="btn" id="break-done" type="button">I've rested</button>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

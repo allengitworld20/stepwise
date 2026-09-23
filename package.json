@@ -1,0 +1,12 @@
+{
+  "name": "stepwise",
+  "version": "1.0.0",
+  "description": "A calm, private companion for concussion recovery: symptom tracking, brain checks, a graduated return-to-activity plan and explainable on-device insights.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
