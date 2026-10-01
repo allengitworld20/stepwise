@@ -71,7 +71,7 @@ render.yaml        Render blueprint
 
 ## Disclaimer
 
-Stepwise is a hackathon project and not a medical device. It does not diagnose concussion or clear anyone to return to sport. Always follow the advice of a qualified healthcare professional. If you notice any urgent signs, call your local emergency number.
+Stepwise is a student project and not a medical device. It does not diagnose concussion or clear anyone to return to sport. Always follow the advice of a qualified healthcare professional. If you notice any urgent signs, call your local emergency number.
 
 Return-to-activity steps are adapted from Patricios et al., *Consensus statement on concussion in sport: the 6th International Conference on Concussion in Sport, Amsterdam 2022*, BJSM 2023.
 
